@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+body {
+    background-color: white;
+    color: black;
+    margin: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.07em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+header {
+    background-color: rgb(73, 73, 73);
+
+    margin: 0px;
+    padding: 0px 0px 25px 0px;
+    width: 100vw;
+
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 img {
+    border-radius: 100%;
+}
+
+main {
+    background-color: lightgray;
+
+    padding: 20px;
+    padding-top: 150px;
+    width: 75vw;
+    height: 80vh;
+
+    
+}
+
+.cadastroEdita {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#cadastroProduto {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#editorDeItens {
+    background-color: lightgray;
+    border-radius: 20px;
+
+    padding: 20px;
+}
+
+#cadastroProduto:hover, #editorDeItens:hover {
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.527);
+}
+
+.espacoTab {
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#tabelaProdutos {
+    background-color: white;
+}
+

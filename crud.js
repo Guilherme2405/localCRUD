@@ -91,6 +91,7 @@ document.querySelectorAll(".editaItem").forEach(function(value,indice) {
        
 
         document.getElementById('salvaItem').addEventListener('click', function(e){
+            e.preventDefault();
             const editaNome = document.getElementById('editaNome').value;
             const editaDescricao = document.getElementById('editaDescricao').value;
             const editaPreco = document.getElementById('editaPreco').value;
